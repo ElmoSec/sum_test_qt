@@ -1,9 +1,12 @@
-#include <iostream>
+#include "sum.h" //current니까 ""
+#include <iostream> //system이니까 <>
 
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-    cout << "Hello World!" << endl;
+    int a;
+    cin >> a;
+    cout << sum(a) << endl;
     return 0;
 }
